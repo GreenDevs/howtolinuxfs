@@ -1,0 +1,501 @@
+---
+- name: Learning Linux with quiz for the beginners
+  difficulty:
+    rookie:
+      quizes:
+        - quiz:
+            question: "The part of linux wrote by Linus Trovalds is"
+            answer: "a"
+            options:
+              a: "Kernel"
+              b: "BIOS"
+              c: "Shell"
+              d: "centrex"
+        - quiz:
+            question: "This is GUI and set of computer applications for Linux Users"
+            answer: "b"
+            options:
+              a: "Gimp"
+              b: "Gnome"
+              c: "GNU"
+              d: "Galileo"
+        - quiz:
+            question: "Command Used to create the directory"
+            answer: "a"
+            options:
+              a: "mkdir"
+              b: "rmdir"
+              c: "newdir"
+              d: "dir"
+        - quiz:
+            question: "Command to create the empty file"
+            answer: "c"
+            options:
+              a: "file"
+              b: "mkfile"
+              c: "touch"
+              d: "empty"
+        - quiz:
+            question: "command to print the contents of file"
+            answer: "d"
+            options:
+              a: "echo"
+              b: "type"
+              c: "view"
+              d: "cat"
+        - quiz:
+            question: "Full Form of bash"
+            answer: "d"
+            options:
+              a: "Brown Again Shell"
+              b: "Bon Again Shell"
+              c: "Bond Again Shell"
+              d: "Bourne Again Shell"
+        - quiz:
+            question: "Filename preceded by dot"
+            answer: "c"
+            options:
+              a: "binary file"
+              b: "read only file"
+              c: "hidden file"
+              d: "write only file"
+        - quiz:
+            question: "which is not an editor"
+            answer: "a"
+            options:
+              a: "electron"
+              b: "vim"
+              c: "vi"
+              d: "emacs"
+        - quiz:
+            question: "Name of the linux distro"
+            answer: "c"
+            options:
+              a: "xfce"
+              b: "emacs"
+              c: "arch"
+              d: "all of above"
+        - quiz:
+            question: "what does rmdir commands do"
+            answer: "a"
+            options:
+              a: "removes empty directory"
+              b: "removes the directory recursively"
+              c: "removes files and directory"
+              d: "makes empty directory"
+        - quiz:
+            question: "list the empty files"
+            answer: "a"
+            options:
+              a: "ls -h"
+              b: "ls -a"
+              c: "ls -l"
+              d: "ls -1"
+        - quiz:
+            question: "mv can be commonly used to"
+            answer: "a"
+            options:
+              a: "rename the files"
+              b: "remove the files"
+              c: "hide the files"
+              d: "none"
+        - quiz:
+            question: "finds the location of binary"
+            answer: "d"
+            options:
+              a: "who"
+              b: "whatis"
+              c: "find"
+              d: "which"
+        - quiz:
+            question: "Linux adopts"
+            answer: "c"
+            options:
+              a: "MIT license"
+              b: "Apache license"
+              c: "GNU"
+              d: "non of above"
+        - quiz:
+            question: "less command relates with"
+            answer: "d"
+            options:
+              a: "more"
+              b: "tail"
+              c: "head"
+              d: "cat"
+        - quiz:
+            question: "Linux is"
+            answer: "c"
+            options:
+              a: "operating system"
+              b: "driver"
+              c: "kernel"
+              d: "desktop environment"
+        - quiz:
+            question: "Major Linux is written in"
+            answer: "d"
+            options:
+              a: "java"
+              b: "B"
+              c: "C"
+              d: "C++"
+        - quiz:
+            question: "Android and Ubuntu shares same"
+            answer: "b"
+            options:
+              a: "commands"
+              b: "kernel"
+              c: "drivers"
+              d: "none"
+        - quiz:
+            question: "top shows"
+            answer: "c"
+            options:
+              a: "top sized files"
+              b: "top directory"
+              c: "process list in a table"
+              d: "not a valid command"
+        - quiz:
+            question: "Odd man out"
+            answer: "c"
+            options:
+              a: "bash"
+              b: "zsh"
+              c: "ssh"
+              d: "csh"
+        - quiz:
+            question: "How to clear the terminal"
+            answer: "a"
+            options:
+              a: "clear"
+              b: "cls"
+              c: "clrscr"
+              d: "clr"
+        - quiz:
+            question: "bash: $"
+            answer: "c"
+            options:
+              a: "selects all"
+              b: "takes input"
+              c: "gives value of the variable"
+              d: "none"
+        - quiz:
+            question: "man"
+            answer: "a"
+            options:
+              a: "manual page"
+              b: "history"
+              c: "manages files"
+              d: "doing manual stuffs."
+        - quiz:
+            question: "info is analogus to"
+            answer: "a"
+            options:
+              a: "man pages"
+              b: "help"
+              c: "version details"
+              d: "none"
+        - quiz:
+            question: "ssh is alternative to"
+            answer: "c"
+            options:
+              a: "telnet"
+              b: "bash"
+              c: "telnet"
+              d: "all"
+        - quiz:
+            question: "telnet lacks with ssh interms of"
+            answer: "c"
+            options:
+              a: "speed"
+              b: "light weight"
+              c: "security"
+              d: "none"
+        - quiz:
+            question: "default port for ssh is"
+            answer: "a"
+            options:
+              a: "22"
+              b: "2020"
+              c: "80"
+              d: "53"
+        - quiz:
+            question: "command used to count the lines, words, characters"
+            answer: "c"
+            options:
+              a: "count"
+              b: "which"
+              c: "wc"
+              d: "word count"
+        - quiz:
+            question: "127.0.0.1 implies"
+            answer: "d"
+            options:
+              a: "linux machine"
+              b: "No connection"
+              c: "router ip address"
+              d: "own machine"
+        - quiz:
+            question: "pwd for"
+            answer: "c"
+            options:
+              a: "post working directory"
+              b: "pre working directory"
+              c: "print working directory"
+              d: "none"
+        - quiz:
+            question: "Linux Initail Release in"
+            answer: "b"
+            options:
+              a: "1992"
+              b: "1991"
+              c: "1993"
+              d: "1990"
+        - quiz:
+            question: "Linux is represented by"
+            answer: "a"
+            options:
+              a: "penguin"
+              b: "gnu"
+              c: "polar bear"
+              d: "albattros"
+        - quiz:
+            question: "apt is a package manager for"
+            answer: "b"
+            options:
+              a: "archlinux"
+              b: "ubuntu"
+              c: "fedora"
+              d: "red hat"
+        - quiz:
+            question: "pacman is a packagemanager for"
+            answer: "a"
+            options:
+              a: "arch"
+              b: "ubuntu"
+              c: "red hat"
+              d: "fedora"
+        - quiz:
+            question: "Most customizable OS"
+            answer: "d"
+            options:
+              a: "ubuntu"
+              b: "kali"
+              c: "fedora"
+              d: "arch"
+        - quiz:
+            question: "Which is free"
+            answer: "d"
+            options:
+              a: "windows vista"
+              b: "windows xp"
+              c: "windows 8"
+              d: "none"
+        - quiz:
+            question: "Founder of GNU"
+            answer: "a"
+            options:
+              a: "Richard Stallman"
+              b: "Linus Torvalds"
+              c: "Dennis Ritchie"
+              d: "Bjarne Stroustrup"
+        - quiz:
+            question: "Which is the least customizable"
+            answer: "c"
+            options:
+              a: "ubuntu"
+              b: "centos"
+              c: "windows 8"
+              d: "suse"
+        - quiz:
+            question: "Which is free"
+            answer: "d"
+            options:
+              a: "ubuntu"
+              b: "kali"
+              c: "arch"
+              d: "all"
+        - quiz:
+            question: "What is the name of > operator"
+            answer: "a"
+            options:
+              a: "redirection"
+              b: "arrow"
+              c: "right"
+              d: "move"
+        - quiz:
+            question: "/ directory is called"
+            answer: "b"
+            options:
+              a: "main directory"
+              b: "root directory"
+              c: "slash directory"
+              d: "none"
+        - quiz:
+            question: "if you put a file in /tmp directory"
+            answer: "c"
+            options:
+              a: "file persists infinitely"
+              b: "file will be removed after certain time"
+              c: "file will be removed on shutdown"
+              d: "file could be removed at anytime"
+        - quiz:
+            question: "/var is for"
+            answer: "b"
+            options:
+              a: "storing varieties of files"
+              b: "files whose size varies with time"
+              c: "compressing files"
+              d: "all"
+        - quiz:
+            question: "/etc is for storing"
+            answer: "d"
+            options:
+              a: "extra files"
+              b: "normal files"
+              c: "binary files"
+              d: "configuration files"
+        - quiz:
+            question: "/bin is for storing"
+            answer: "c"
+            options:
+              a: "delted files"
+              b: "configuration files"
+              c: "binary files"
+              d: "block files"
+        - quiz:
+            question: "/root"
+            answer: "b"
+            options:
+              a: "root directory"
+              b: "home of root user"
+              c: "stores system files"
+              d: "none"
+        - quiz:
+            question: "/proc"
+            answer: "a"
+            options:
+              a: "process related files"
+              b: "protects files"
+              c: "stores binary files"
+              d: "none"
+        - quiz:
+            question: "Linux distro for pentesting"
+            answer: "c"
+            options:
+              a: "arch"
+              b: "red hat"
+              c: "kali"
+              d: "suse"
+        - quiz:
+            question: "Linux distro for normal desktop user"
+            answer: "a"
+            options:
+              a: "Ubuntu"
+              b: "raspbian"
+              c: "puppy"
+              d: "manjaro"
+        - quiz:
+            question: "Linux distro for gaming"
+            answer: "d"
+            options:
+              a: "play linux"
+              b: "Game drift linux"
+              c: "sparky linux"
+              d: "all"
+        - quiz:
+            question: "odd man out"
+            answer: "b"
+            options:
+              a: "grep"
+              b: "vim"
+              c: "sed"
+              d: "awk"
+        - quiz:
+            question: "rm -r"
+            answer: "a"
+            options:
+              a: "removes files recursively"
+              b: "removes hidden files"
+              c: "removes binary files"
+              d: "none"
+        - quiz:
+            question: "odd man out"
+            answer: "c"
+            options:
+              a: "htop"
+              b: "top"
+              c: "tree"
+              d: "ps"
+        - quiz:
+            question: "who"
+            answer: "d"
+            options:
+              a: "shows the name of the user"
+              b: "shows name of the process"
+              c: "who is root user"
+              d: "who is logged on"
+        - quiz:
+            question: "command to show files in tree"
+            answer: "c"
+            options:
+              a: "list"
+              b: "ls -t"
+              c: "tree"
+              d: "treeview"
+        - quiz:
+            question: "odd man out"
+            answer: "c"
+            options:
+              a: "kde"
+              b: "xfce"
+              c: "sddm"
+              d: "unity"
+        - quiz:
+            question: "odd man out"
+            answer: "b"
+            options:
+              a: "yum"
+              b: "ls"
+              c: "apt"
+              d: "pacman"
+        - quiz:
+            question: "command that print random quotes"
+            answer: "b"
+            options:
+              a: "cowsay"
+              b: "fortune"
+              c: "xcowthink"
+              d: "randgen"
+        - quiz:
+            question: "odd man out"
+            answer: "d"
+            options:
+              a: "ftp"
+              b: "http"
+              c: "sftp"
+              d: "ip"
+        - quiz:
+            question: "odd man out"
+            answer: "a"
+            options:
+              a: "sshd"
+              b: "apache"
+              c: "nginx"
+              d: "lighthttpd"
+        - quiz:
+            question: "find command is to find"
+            answer: "b"
+            options:
+              a: "wiki"
+              b: "help"
+              c: "info"
+              d: "files"
+        - quiz:
+            question: "wget"
+            answer: "c"
+            options:
+              a: "browse web"
+              b: "gets file from web"
+              c: "downloads files"
+              d: "none"

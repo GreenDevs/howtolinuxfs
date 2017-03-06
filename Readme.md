@@ -1,1 +1,1 @@
-**File system** of our `HowToLinux` Project where everything resides. fs of `howtolinuxfs` is for `FileSystem`
+**File system** of our `HowToLinux` where everything resides. fs of `howtolinuxfs` is for `FileSystem`

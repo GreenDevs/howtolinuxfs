@@ -1,5 +1,5 @@
 ---
-- name: Learning Linux with quiz for the beginners
+- name: "Learning Linux with quiz for the beginners"
   difficulty:
     rookie:
       quizes:
@@ -84,8 +84,8 @@
               c: "removes files and directory"
               d: "makes empty directory"
         - quiz:
-            question: "list the empty files"
-            answer: "a"
+            question: "list all the files including hidden"
+            answer: "b"
             options:
               a: "ls -h"
               b: "ls -a"
@@ -498,4 +498,308 @@
               a: "browse web"
               b: "gets file from web"
               c: "downloads files"
+              d: "none"
+        - quiz:
+            question: "reading input in shell script"
+            answer: "a"
+            options:
+              a: "read"
+              b: "get"
+              c: "input"
+              d: "echo"
+        - quiz:
+            question: "printing in shell script"
+            answer: "c"
+            options:
+              a: "put"
+              b: "show"
+              c: "echo"
+              d: "none"
+        - quiz:
+            question: "not the keyword in shell"
+            answer: "d"
+            options:
+              a: "for"
+              b: "while"
+              c: "read"
+              d: "put"
+        - quiz:
+            question: "echo #hello"
+            answer: "a"
+            options:
+              a: "prints empty line"
+              b: "print hello"
+              c: "prints #hello"
+              d: "print Hello"
+        - quiz:
+            question: "ls -s"
+            answer: "c"
+            options:
+              a: "sort the files"
+              b: "show the hidden files"
+              c: "prints the size of files"
+              d: "none"
+        - quiz:
+            question: "ls -1"
+            answer: "a"
+            options:
+              a: "list one file per line."
+              b: "list only one file"
+              c: "list the hidden files"
+              d: "none"
+        - quiz:
+            question: "cd -"
+            answer: "d"
+            options:
+              a: "jump to current directory"
+              b: "jump one directory behind"
+              c: "jump one directory ahead"
+              d: "jump to the previous working directory"
+        - quiz:
+            question: "cd ."
+            answer: "a"
+            options:
+              a: "jump to current directory"
+              b: "jump one directory ahead"
+              c: "jump one directory behind"
+              d: "none"
+        - quiz:
+            question: "cd .."
+            answer: "b"
+            options:
+              a: "jump into current directory"
+              b: "jump one directory behind"
+              c: "jump one directory ahead"
+              d: "wrong command"
+        - quiz:
+            question: "echo '#hello'"
+            answer: "d"
+            options:
+              a: "prints empty line"
+              b: "hello"
+              c: "Hello"
+              d: "#hello"
+        - quiz:
+            question: "var=test && echo $var"
+            answer: "b"
+            options:
+              a: "print $var"
+              b: "print test"
+              c: "print empty"
+              d: "none"
+        - quiz:
+            question: "var=test && echo '$var'"
+            answer: "c"
+            options:
+              a: "prints empty line"
+              b: "prints test"
+              c: "print $var"
+              d: "none"
+        - quiz:
+            question: "!! in bash is"
+            answer: "c"
+            options:
+              a: "comment"
+              b: "reqular expression"
+              c: "previous command"
+              d: "none"
+        - quiz:
+            question: "& in bash"
+            answer: "a"
+            options:
+              a: "pushes the command in background"
+              b: "brings the command in foreground"
+              c: "previous command"
+              d: "none"
+        - quiz:
+            question: "echo 'hello' > file"
+            answer: "d"
+            options:
+              a: "prints hello > file"
+              b: "prints hello"
+              c: "prints file"
+              d: "does not print anything"
+        - quiz:
+            question: "echo 'hello' > file"
+            answer: "b"
+            options:
+              a: "prints hello > file"
+              b: "makes a new file"
+              c: "prints file"
+              d: "none"
+        - quiz:
+            question: "mv file > /dev/null"
+            answer: "a"
+            options:
+              a: "removes the file"
+              b: "rename the file"
+              c: "move file to /dev/null directory"
+              d: "none"
+        - quiz:
+            question: "rm dir"
+            answer: "d"
+            options:
+              a: "removes the dir"
+              b: "renames the dir"
+              c: "removes only the empty dir"
+              d: "cannot remove the dir"
+        - quiz:
+            question: "rm -v"
+            answer: "c"
+            options:
+              a: "rm version"
+              b: "remove hidden files"
+              c: "verbose"
+              d: "none"
+        - quiz:
+            question: "ls -l"
+            answer: "a"
+            options:
+              a: "use a long listing format"
+              b: "list hidden files"
+              c: "list only directory"
+              d: "none"
+        - quiz:
+            question: "mkdir -p"
+            answer: "c"
+            options:
+              a: "make parent directories"
+              b: "make hidden directories"
+              c: "no error if existing"
+              d: "none"
+        - quiz:
+            question: "date +%H"
+            answer: "d"
+            options:
+              a: "month"
+              b: "year"
+              c: "minutes"
+              d: "hour"
+        - quiz:
+            question: "date +%h"
+            answer: "b"
+            options:
+              a: "hour"
+              b: "month"
+              c: "minutes"
+              d: "none"
+        - quiz:
+            question: "date +%T"
+            answer: "a"
+            options:
+              a: "time"
+              b: "date"
+              c: "time in seconds"
+              d: "none"
+        - quiz:
+            question: "time"
+            answer: "c"
+            options:
+              a: "current time"
+              b: "date"
+              c: "shows time to execute a command"
+              d: "none"
+        - quiz:
+            question: "wc -m"
+            answer: "c"
+            options:
+              a: "word count"
+              b: "line count"
+              c: "character count"
+              d: "none"
+        - quiz:
+            question: "wc -l"
+            answer: "c"
+            options:
+              a: "character count"
+              b: "word count"
+              c: "line count"
+              d: "none"
+        - quiz:
+            question: "wc -w"
+            answer: "a"
+            options:
+              a: "word count"
+              b: "line count"
+              c: "character count"
+              d: "none"
+        - quiz:
+            question: "wc -c"
+            answer: "d"
+            options:
+              a: "word count"
+              b: "line count"
+              c: "paragraph count"
+              d: "byte counts"
+        - quiz:
+            question: ".bashrc stays at"
+            answer: "d"
+            options:
+              a: "/opt/bash/"
+              b: "/home/{user}/bash/"
+              c: "/var/bash/"
+              d: "/home/{user}/"
+        - quiz:
+            question: "bashrc"
+            answer: "a"
+            options:
+              a: "configuration file for bash"
+              b: "bash shell script"
+              c: "log file for bash"
+              d: "none"
+        - quiz:
+            question: "powertop"
+            answer: "c"
+            options:
+              a: "shows ac power"
+              b: "shows battery power"
+              c: "power management diagnosis tool."
+              d: "none"
+        - quiz:
+            question: "lsblk"
+            answer: "d"
+            options:
+              a: "list block devices"
+              b: "list block paths"
+              c: "list block files"
+              d: "none"
+        - quiz:
+            question: "chown"
+            answer: "b"
+            options:
+              a: "change owner of pc"
+              b: "change owner of file"
+              c: "change root user"
+              d: "none"
+        - quiz:
+            question: "chmod +r"
+            answer: "a"
+            options:
+              a: "add read permission"
+              b: "remove read permission"
+              c: "make file executable"
+              d: "make file writable"
+        - quiz:
+            question: "chmod -x"
+            answer: "d"
+            options:
+              a: "adds the executable permission"
+              b: "read protect a file"
+              c: "write protect a file"
+              d: "removes executable permission"
+        - quiz:
+            question: "chmod +x"
+            answer: "b"
+            options:
+              a: "removes executable permission"
+              b: "adds executable permission"
+              c: "write protect a file"
+              d: "read protect a file"
+        - quiz:
+            question: "chmod"
+            answer: "c"
+            options:
+              a: "change kernel modules"
+              b: "change the user modes"
+              c: "change permissions of a file"
               d: "none"

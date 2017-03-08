@@ -1,0 +1,55 @@
+{
+  "facts ": [
+    {
+      "factId": "0",
+      "fact": "Linux Kernel was written by Linus Torvalds at the age of  21 years "
+    },
+    {
+      "factId": "1",
+      "fact": "Linux is not an OS, but it is the kernel, GNU Linux is the OS and it comes in several hundred flavours."
+    },
+    {
+      "factId": "2",
+      "fact": "Initially in 1991, Linux kernel version 0.01 was released with 10239 lines of code."
+    },
+    {
+      "factId": "3",
+      "fact": "A Standard Linux Kernel today has over 10 Million lines of code and it grows at the rate of 10% every year."
+    },
+    {
+      "factId": "4",
+      "fact": "William Della Croce Jr. registered the name Linux and demanded royalty for it. Later, however he agreed to handover the trademark to Linus."
+    },
+    {
+      "factId": "5",
+      "fact": "The Linux kernel’s official mascot is a penguin named Tux, abbreviation of tuxedo."
+    },
+    {
+      "factId": "5",
+      "fact": "Debian v.4.0’s contains 283 million lines, cost to produce commercially : $7.37 billion"
+    },
+    {
+      "factId": "6",
+      "fact": " Linux Torvalds has been honoured by naming an asteroid after his name."
+    },
+    {
+      "factId": "7",
+      "fact": " Avatar was completely developed on Linux platform using Foss in 3D Software."
+    },
+    {
+      "factId": "8",
+      "fact": " Windows and the Linux kernel can run simultaneously on same machine using Cooperative Linux (coLinux)."
+    },
+    {
+      "factId": "9",
+      "fact": " An unmodified version of the Linux kernel is called – “Vanilla Kernel”."
+    },
+    {
+      "factId": "10",
+      "fact": " WebOS, Android and Nokia’s Maemo phone OS are built on top of the Linux kernel."
+    },
+    {
+      "factId": "11",
+      "fact": " WebOS, Android and Nokia’s Maemo phone OS are built on top of the Linux kernel."
+    }
+  ]}

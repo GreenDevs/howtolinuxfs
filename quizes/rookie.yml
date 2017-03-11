@@ -803,3 +803,11 @@
               b: "change the user modes"
               c: "change permissions of a file"
               d: "none"
+        - quiz:
+            question: "shortcut to exit the terminal"
+            answer: "d"
+            options:
+              a: "ctrl + e"
+              b: "ctrl + c"
+              c: "ctrl + z"
+              d: "ctrl + d"

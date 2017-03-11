@@ -1,0 +1,405 @@
+---
+- name: "Learning Linux with quiz for the intermedaites"
+  difficulty:
+    rookie:
+      quizes:
+        - quiz:
+            question: "file to modify to show message on opening new terminal window"
+            answer: "a"
+            options:
+              a: ".bashrc"
+              b: "bashrc"
+              c: ".term"
+              d: ".linux_term"
+        - quiz:
+            question: "Know the current shell"
+            answer: "b"
+            options:
+              a: "echo $$SHELL"
+              b: "echo $SHELL"
+              c: "cat /etc/shell"
+              d: "cat /etc/cursh"
+        - quiz:
+            question: "refresh the current shell"
+            answer: "c"
+            options:
+              a: "shell"
+              b: "exec shell"
+              c: "exec $SHELL"
+              d: "bash"
+        - quiz:
+            question: "exec ls command will"
+            answer: "a"
+            options:
+              a: "exit the current terminal window"
+              b: "show ls output"
+              c: "remove ls"
+              d: "none"
+        - quiz:
+            question: "kill command is for"
+            answer: "d"
+            options:
+              a: "only killing the process"
+              b: "removing the files"
+              c: "shutting down the pc"
+              d: "sending signals to the process"
+        - quiz:
+            question: "pidof <processname> gives"
+            answer: "c"
+            options:
+              a: "pid of the child process"
+              b: "pid of the parent process"
+              c: "pidof the process itself"
+              d: "none"
+        - quiz:
+            question: "Which of the following is not a variant of UNIX?"
+            answer: "b"
+            options:
+              a: "solaris"
+              b: "AS400"
+              c: "IRIX"
+              d: "AIX"
+        - quiz:
+            question: "System calls are implemented in"
+            answer: "a"
+            options:
+              a: "C"
+              b: "C++"
+              c: "assembly"
+              d: "both a & c "
+        - quiz:
+            question: "application communicates with kernel via"
+            answer: "d"
+            options:
+              a: "socket"
+              b: "port"
+              c: "shell"
+              d: "system calls"
+        - quiz:
+            question: "ls | grep 'test'"
+            answer: "b"
+            options:
+              a: "lists the files that starts with test"
+              b: "lists the files that has test in its name"
+              c: "lists the files that ends with test"
+              d: "wrong syntax"
+        - quiz:
+            question: "the wrong syntax"
+            answer: "a"
+            options:
+              a: "cat file > grep test"
+              b: "echo $longtext | grep test"
+              c: "cat file | grep test"
+              d: "grep 'test' file"
+        - quiz:
+            question: "home directory of root user"
+            answer: "c"
+            options:
+              a: "/home/root/"
+              b: "/home/<user_with_root_premission>/"
+              c: "/root"
+              d: "/root/home"
+        - quiz:
+            question: "echo 'redirection operator' >> file"
+            answer: "d"
+            options:
+              a: "overwrites the file"
+              b: "makes a new file by removing old one"
+              c: "wrong command"
+              d: "appends the content in file"
+        - quiz:
+            question: "echo 'redirection operator' >> file"
+            answer: "a"
+            options:
+              a: "overwrites the content of file"
+              b: "makes a newfile by removing old one"
+              c: "wrong command"
+              d: "appends content in a file"
+        - quiz:
+            question: "check the memory status"
+            answer: "b"
+            options:
+              a: "du -s"
+              b: "free -mh"
+              c: "df -th"
+              d: "none"
+        - quiz:
+            question: "cat is for"
+            answer: "d"
+            options:
+              a: "printing files"
+              b: "concatenate files"
+              c: "editing the files"
+              d: "concatenating and printing files"
+        - quiz:
+            question: "apt-get update"
+            answer: "c"
+            options:
+              a: "updates the system packages only"
+              b: "updates the whole system"
+              c: "updates the repository contents"
+              d: "none"
+        - quiz:
+            question: "Linux is a"
+            answer: "a"
+            options:
+              a: "kernel"
+              b: "operating system"
+              c: "driver packages"
+              d: "all"
+        - quiz:
+            question: "password is stored in"
+            answer: "c"
+            options:
+              a: "/etc/passwd"
+              b: "/etc/secrets"
+              c: "/etc/shadow"
+              d: "none"
+        - quiz:
+            question: "command to see the available routes"
+            answer: "c"
+            options:
+              a: "routes"
+              b: "routes show"
+              c: "netstat -r"
+              d: "none"
+        - quiz:
+            question: "Execute ls command in vi"
+            answer: "a"
+            options:
+              a: ":!ls"
+              b: ":ls"
+              c: "!ls"
+              d: "ls"
+        - quiz:
+            question: "Set default permissions for files and directories at the time of creation"
+            answer: "b"
+            options:
+              a: "chmod"
+              b: "umask"
+              c: "chown"
+              d: "chgrp"
+        - quiz:
+            question: "Show the path of executable"
+            answer: "c"
+            options:
+              a: "what"
+              b: "whatis"
+              c: "which"
+              d: "where"
+        - quiz:
+            question: "Showing the file type"
+            answer: "d"
+            options:
+              a: "type"
+              b: "info"
+              c: "ftype"
+              d: "file"
+        - quiz:
+            question: "Changing file's group owner"
+            answer: "a"
+            options:
+              a: "chgrp"
+              b: "cgrp"
+              c: "cgroup"
+              d: "none"
+        - quiz:
+            question: "To view the compressed file"
+            answer: "b"
+            options:
+              a: "cat"
+              b: "zcat"
+              c: "type"
+              d: "ucat"
+        - quiz:
+            question: "Command to display the octal value of text"
+            answer: "d"
+            options:
+              a: "octal"
+              b: "oct"
+              c: "octify"
+              d: "od"
+        - quiz:
+            question: "What control character signals the end of the input file?"
+            answer: "c"
+            options:
+              a: "ctrl + a"
+              b: "ctrl + i"
+              c: "ctrl + d"
+              d: "ctrl + c"
+        - quiz:
+            question: "Super Daemon in LINUX"
+            answer: "d"
+            options:
+              a: "inet"
+              b: "sdaemon"
+              c: "proc"
+              d: "init"
+        - quiz:
+            question: "Which of the following enables multi-tasking in UNIX?"
+            answer: "a"
+            options:
+              a: "time sharing"
+              b: "multi programming"
+              c: "multi user"
+              d: "modularity"
+        - quiz:
+            question: "Kernel minimizes the disk access by keeping a internal data buffer called"
+            answer: "b"
+            options:
+              a: "pooling"
+              b: "buffer cache"
+              c: "swapping"
+              d: "lru cache"
+        - quiz:
+            question: "At start of process execution, STDOUT & STDERR"
+            answer: "c"
+            options:
+              a: "are closed"
+              b: "points to /dev/null"
+              c: "point to terminal"
+              d: "none"
+        - quiz:
+            question: " find / -name ‘*test’ will"
+            answer: "d"
+            options:
+              a: "list *test files from / directory"
+              b: "find all the files starting with test"
+              c: "find all test files"
+              d: "list recursively *test files starting from / directory"
+        - quiz:
+            question: "to see the inode number of files"
+            answer: "c"
+            options:
+              a: "ls -I"
+              b: "ls -a"
+              c: "ls -i"
+              d: "ls -node"
+        - quiz:
+            question: "Command to print a file"
+            answer: "a"
+            options:
+              a: "lpr"
+              b: "print"
+              c: "ptr"
+              d: "none"
+        - quiz:
+            question: "get name and information about current kernel"
+            answer: "a"
+            options:
+              a: "uname"
+              b: "kernel"
+              c: "os"
+              d: "none"
+        - quiz:
+            question: "Command to display the OS name"
+            answer: "b"
+            options:
+              a: "os"
+              b: "uname"
+              c: "kernel"
+              d: "linux"
+        - quiz:
+            question: "Command to set terminal IO characteristic"
+            answer: "c"
+            options:
+              a: "tty"
+              b: "ptty"
+              c: "stty"
+              d: "ctty"
+        - quiz:
+            question: "The dmesg command shows"
+            answer: "d"
+            options:
+              a: "user login messages"
+              b: "system log messages"
+              c: "daemon log messages"
+              d: "kernel log messages"
+        - quiz:
+            question: "Signal sent when pressing ctrl + c"
+            answer: "a"
+            options:
+              a: "KILL"
+              b: "INIT"
+              c: "STOP"
+              d: "TERM"
+        - quiz:
+            question: "Signal 9 is for"
+            answer: "d"
+            options:
+              a: "TERM"
+              b: "STOP"
+              c: "TTOUT"
+              d: "KILL"
+        - quiz:
+            question: "Process information of current shell"
+            answer: "c"
+            options:
+              a: "bg"
+              b: "fg"
+              c: "ps"
+              d: "show"
+        - quiz:
+            question: "Running process in background"
+            answer: "b"
+            options:
+              a: "!"
+              b: "&"
+              c: "&&"
+              d: "?"
+        - quiz:
+            question: "Command to bring the background process to forground"
+            answer: "a"
+            options:
+              a: "fg"
+              b: "foreground"
+              c: "fore"
+              d: "none"
+        - quiz:
+            question: "Not a valid run level"
+            answer: "d"
+            options:
+              a: "S"
+              b: "0"
+              c: "1"
+              d: "8"
+        - quiz:
+            question: "mount configuration file"
+            answer: "b"
+            options:
+              a: "/etc/inittab"
+              b: "/etc/fstab"
+              c: "/etc/mount"
+              d: "/etc/boot"
+        - quiz:
+            question: "Filesystem of CD-ROM"
+            answer: "a"
+            options:
+              a: "isofs"
+              b: "procfs"
+              c: "ext2"
+              d: "fat32"
+        - quiz:
+            question: "Check filesystem usage"
+            answer: "c"
+            options:
+              a: "du"
+              b: "usage"
+              c: "df"
+              d: "dd"
+        - quiz:
+            question: "Sticky bit can be set using following permission"
+            answer: "d"
+            options:
+              a: "0771"
+              b: "771"
+              c: "4771"
+              d: "1771"
+        - quiz:
+            question: "Command to set the limit on file size"
+            answer: "a"
+            options:
+              a: "ulimit"
+              b: "flimit"
+              c: "fsize"
+              d: "none"

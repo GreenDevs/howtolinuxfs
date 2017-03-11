@@ -403,3 +403,403 @@
               b: "flimit"
               c: "fsize"
               d: "none"
+        - quiz:
+            question: "file referred for group"
+            answer: "a"
+            options:
+              a: "/etc/group"
+              b: "/etc/passwd"
+              c: "/etc/shadow"
+              d: "/etc/profile"
+        - quiz:
+            question: "echo $$"
+            answer: "b"
+            options:
+              a: "syntax error"
+              b: "print pid of current shell"
+              c: "prints previous command"
+              d: "shows the random number"
+        - quiz:
+            question: "echo $?"
+            answer: "a"
+            options:
+              a: "shows the status code of previous command"
+              b: "invalid expression"
+              c: "shows the pid of current shell"
+              d: "none"
+        - quiz:
+            question: "Feed stdout of one command to other"
+            answer: "d"
+            options:
+              a: "> can be used"
+              b: ">> can be used"
+              c: "not possible"
+              d: "| can be used"
+        - quiz:
+            question: "By default, a Linux user falls under which group?"
+            answer: "c"
+            options:
+              a: "system"
+              b: "others"
+              c: "same as user id"
+              d: "none"
+        - quiz:
+            question: "who | wc -l"
+            answer: "d"
+            options:
+              a: "shows user list"
+              b: "total user count"
+              c: "content of user"
+              d: "count of logged in users"
+        - quiz:
+            question: "who"
+            answer: "a"
+            options:
+              a: "shows who is logged in"
+              b: "name of the user"
+              c: "list of the users"
+              d: "none"
+        - quiz:
+            question: "Change the password"
+            answer: "c"
+            options:
+              a: "pwd"
+              b: "pass"
+              c: "passwd"
+              d: "cpsw"
+        - quiz:
+            question: "User ID 0 is"
+            answer: "a"
+            options:
+              a: "id of root user"
+              b: "invalid"
+              c: "id of deleted user"
+              d: "none"
+        - quiz:
+            question: "User can change the default log-in shell using"
+            answer: "d"
+            options:
+              a: "tsch"
+              b: "chshell"
+              c: "rmsh"
+              d: "chsh"
+        - quiz:
+            question: "nohup is used to"
+            answer: "b"
+            options:
+              a: "hang up the process after logut"
+              b: "continue process after logout"
+              c: "create bg process"
+              d: "none"
+        - quiz:
+            question: "priority of a running process can be changes using"
+            answer: "c"
+            options:
+              a: "nice"
+              b: "priority"
+              c: "renice"
+              d: "only superuser can change priority"
+        - quiz:
+            question: "Which is true"
+            answer: "a"
+            options:
+              a: "Shell is a wrapper for all the commands and utilities"
+              b: "Shell is kernel core component"
+              c: "Shell is process which can started by root"
+              d: "none"
+        - quiz:
+            question: "cmd > abc 2>&1 will"
+            answer: "c"
+            options:
+              a: "Write file2 to file1"
+              b: "Write error to abc"
+              c: "Write standard output and standard error to abc"
+              d: "Write standard output to abc"
+        - quiz:
+            question: "? specifies"
+            answer: "b"
+            options:
+              a: "one or more character"
+              b: "one character"
+              c: "last character"
+              d: "ist character"
+        - quiz:
+            question: "* specifies"
+            answer: "d"
+            options:
+              a: "all character"
+              b: "one or more character"
+              c: "nothing"
+              d: "zero or more character"
+        - quiz:
+            question: "shows the status code command line"
+            answer: "c"
+            options:
+              a: "#@"
+              b: "$@"
+              c: "$?"
+              d: "$@"
+        - quiz:
+            question: "shows the number of argument in command line"
+            answer: "b"
+            options:
+              a: "$@"
+              b: "$#"
+              c: "$$"
+              d: "$?"
+        - quiz:
+            question: "$ means in shell script"
+            answer: "a"
+            options:
+              a: "variable"
+              b: "comment"
+              c: "argument"
+              d: "pidof script"
+        - quiz:
+            question: "supress the error"
+            answer: "c"
+            options:
+              a: "cmd 2>&1"
+              b: "cmd 3>&1"
+              c: "cmd 2> /dev/null"
+              d: "none"
+        - quiz:
+            question: "Correct method for appending “foo” in /tmp/bar file?"
+            answer: "b"
+            options:
+              a: "cat 'foo' > /tmp/bar"
+              b: "cat 'foo' >> /tmp/bar"
+              c: "cat 'foo' /tmp/bar"
+              d: "none"
+        - quiz:
+            question: "shell is"
+            answer: "d"
+            options:
+              a: "system call program"
+              b: "kernel messanger"
+              c: "interface between applications and kernel"
+              d: "command interpretor"
+        - quiz:
+            question: "every successful login will read"
+            answer: "a"
+            options:
+              a: "/etc/profile"
+              b: "/etc/login"
+              c: "/etc/int"
+              d: "/etc/init"
+        - quiz:
+            question: "command to debug shell script"
+            answer: "c"
+            options:
+              a: "set debug"
+              b: "debug"
+              c: "set -x"
+              d: "db"
+        - quiz:
+            question: "variable containing current shell PID"
+            answer: "d"
+            options:
+              a: "$!"
+              b: "$@"
+              c: "$#"
+              d: "$$"
+        - quiz:
+            question: "Executing a command in shell"
+            answer: "b"
+            options:
+              a: "executes in the same shell"
+              b: "forks a new child and executes"
+              c: "loads a special program to execute"
+              d: "none"
+        - quiz:
+            question: "creating environment variables"
+            answer: "a"
+            options:
+              a: "export"
+              b: "env"
+              c: "environment"
+              d: "environ"
+        - quiz:
+            question: "which is valid"
+            answer: "b"
+            options:
+              a: "cmd1 > cmd2"
+              b: "cmd1 | cmd2"
+              c: "cmd1 to cmd2"
+              d: "cmd1 >> cmd2"
+        - quiz:
+            question: "if nothing specified in the function"
+            answer: "c"
+            options:
+              a: "returs 0 exit status"
+              b: "nothing"
+              c: "exit status of last command"
+              d: "none"
+        - quiz:
+            question: "keyword local variable is used to define"
+            answer: "d"
+            options:
+              a: "variable within a script"
+              b: "to emphasize global variable"
+              c: "none"
+              d: "variable within in function"
+        - quiz:
+            question: "Shell default variable is"
+            answer: "c"
+            options:
+              a: "int"
+              b: "float"
+              c: "string"
+              d: "var"
+        - quiz:
+            question: "reads the user input in shell"
+            answer: "b"
+            options:
+              a: "get"
+              b: "read"
+              c: "scan"
+              d: "recieve"
+        - quiz:
+            question: "redefine a variable in shell"
+            answer: "a"
+            options:
+              a: "unset"
+              b: "set"
+              c: "clear"
+              d: "delete"
+        - quiz:
+            question: "env"
+            answer: "d"
+            options:
+              a: "no command"
+              b: "makes a environment variable"
+              c: "removes environment varaibles"
+              d: "prints environment varaibles"
+        - quiz:
+            question: "ctrl + r"
+            answer: "c"
+            options:
+              a: "refresh the commad"
+              b: "exit the shell"
+              c: "search history in reverse"
+              d: "exit the terminal"
+        - quiz:
+            question: "view the current jobs"
+            answer: "b"
+            options:
+              a: "who"
+              b: "jobs"
+              c: "view"
+              d: "show"
+        - quiz:
+            question: "integer arithmetic shell script"
+            answer: "a"
+            options:
+              a: "let"
+              b: "set"
+              c: "get"
+              d: "unset"
+        - quiz:
+            question: "logout is used to"
+            answer: "c"
+            options:
+              a: "switch off the computer"
+              b: "logout the user"
+              c: "exit the shell"
+              d: "suspend the computer"
+        - quiz:
+            question: "history length can be set in"
+            answer: "a"
+            options:
+              a: ".bashrc"
+              b: ".history"
+              c: "/etc/history.length"
+              d: "none"
+        - quiz:
+            question: "history is stored in"
+            answer: "c"
+            options:
+              a: "/etc/history"
+              b: "~/.bashrc"
+              c: "~/.history"
+              d: "~/.bash"
+        - quiz:
+            question: "prints the directory stack"
+            answer: "a"
+            options:
+              a: "dirs"
+              b: "dir list"
+              c: "showdir"
+              d: "pwd"
+        - quiz:
+            question: "use the last argument in bash"
+            answer: "c"
+            options:
+              a: "!!"
+              b: "!^"
+              c: "!$"
+              d: "!"
+        - quiz:
+            question: "use the first argument in bash"
+            answer: "c"
+            options:
+              a: "!"
+              b: "!!"
+              c: "!^"
+              d: "!$"
+        - quiz:
+            question: "history"
+            answer: "d"
+            options:
+              a: "shows history of linux"
+              b: "doesn't exist"
+              c: "history of user"
+              d: "history of command"
+        - quiz:
+            question: "terminate the process by its name"
+            answer: "c"
+            options:
+              a: "kill"
+              b: "sig"
+              c: "killall"
+              d: "none"
+        - quiz:
+            question: "background job to foreground"
+            answer: "a"
+            options:
+              a: "fg"
+              b: "bg"
+              c: "foreground"
+              d: "background"
+        - quiz:
+            question: "ctrl + z"
+            answer: "a"
+            options:
+              a: "suspend the process"
+              b: "kill the process"
+              c: "exit the terminal"
+              d: "logout"
+        - quiz:
+            question: "the command ulimit"
+            answer: "d"
+            options:
+              a: "set a limit on specified resource for system users"
+              b: "set/show process resource limit"
+              c: "none"
+              d: "both (a) and (b)"
+        - quiz:
+            question: "show the time to execute command"
+            answer: "d"
+            options:
+              a: "times"
+              b: "date"
+              c: "both (a) and (b)"
+              d: "time"
+        - quiz:
+            question: "execute the previous command"
+            answer: "c"
+            options:
+              a: "!$"
+              b: "!^"
+              c: "!!"
+              d: "!"

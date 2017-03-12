@@ -1,0 +1,146 @@
+name : "jokes.yaml"
+version : "1.0"
+description : |
+  linux humour
+  dev humour
+copyPasteNinja : "Ishwor"
+data :
+  -joke : "I’ll tell you a DNS joke but be advised, it could take up to 24 hours for everyone to get it."
+  -joke : "I think there is a duck in my router. It always goes NAT, NAT, NAT."
+  -joke : "So I want to dress up as a UDP packet for Halloween, but I don’t know if anyone will get it."
+  -joke : "I could tell you an ICMP joke but it would probably be repetitive."
+  -joke : "I wanted to write an IPv4 joke, but the good ones were all already exhausted."
+  -joke : "IPv4 address space walks into a bar and yells “One strong CIDR please, I’m exhausted!"
+  -joke : "A tcp packet walks in to a bar and says \"I want a beer\", barman says \"you want a beer?\" and tcp packet says \"yes, a beer\"."
+  -joke : "In high society, TCP is more welcome than UDP. At least it knows a proper handshake."
+  -joke : "A bunch of TCP packets go into a bar, until it’s overcrowded. The next day, half as many go in."
+  -joke : "A bunch of TCP packets walk into a bar. The bartender says, “Hang on just a second, I need to close the window.”"
+  -joke : "When I try to send SYNs to chicks, I don’t get any ACKs. Just FINs and RSTs."
+  -joke : "The great thing about TCP jokes is that you always get them."
+  -joke : "The problem with TCP jokes is that people keep retelling them slower until you get them."
+  -joke : "I would tell some UDP jokes too but I never know if anyone gets them."
+  -joke : "The best thing about UDP jokes is that I don’t care if you get them or not."
+  -joke : "I had a funny UDP joke to tell, but I lost it somewhere..."
+  -joke : "The sad thing about IPv6 jokes is that almost no one understands them and no one is using them yet."
+  -joke : "I tried to come up with an IPv4 joke, but the good ones were all already exhausted."
+  -joke : "A DHCP packet walks into a bar and asks for a beer. Bartender says: \"here, but I’ll need that back in an hour!"
+  -joke : "DHCP jokes only work when there is only one person telling them."
+  -joke : "The problem with token ring jokes is you need to wait your turn to laugh"
+  -joke : "I’d make a joke about UDP, but I don’t know if anyone’s actually listening…"
+  -joke : "I know a great IPv6 joke, but I don’t think you’re ready for it."
+  -joke : "Top 10 of the binary numbers :1 and 0."
+  -joke : |
+    "In case of a problem:"
+    Windows > Reboot
+    Linux > Be root
+  -joke : >+
+    The worst part of SSH jokes is that,
+    "even when they're not funny, you suck it up and just pretend they were anyway."
+  -joke : >-
+    "The worst part about token ring jokes is that if someone starts telling one while you are telling yours, all joking stops."
+  -joke : |-
+    "IP packet with TTL=1 arrives at bar."
+    "Bartender:Sorry, can’t let you leave…and you don’t get any beer either.." 
+  -joke : |
+    "Knock knock."
+    "Who’s there?"
+    "SYN flood."
+    "SYN flood who?"
+    "Knock knock.…"
+  -joke : |
+   "Q. What is a Unix or Linux sysadmin’s favourite hangout place?"
+   "A. Foo Bar"
+  -joke : |
+    "A RAID member disk walks into a bar."
+    "Bartender asks what’s wrong?"
+    "\"Parity error.\""
+    "\"Yeah, you look a bit off.\""
+  -joke : >-
+    "Linux geek started working at McDonalds."
+    "A customer asked him for a Big Mac"
+    "and he gave him a bit of paper with FF:FF:FF:FF:FF:FF written on it."
+  -joke : |-
+     "Q. What kind of doctor fixes broken websites?"
+     "A. A URLologist."
+  -joke : "When a pipe brokes in Linux do I have to call the plumber?"
+  -joke : >-
+        "First date tip: Dont tell her that you prefer back-end over front-end."
+        "Programming is apparently \"the most perverted thing in the world\"..."
+  -joke : >-
+    "Pro Tip: You can drastically reduce keystrokes in any editor by using your brain before typing."
+  -joke : |
+    Why is it called RAID0?
+    Because the number 0 is standing for the number of files you can recover when a drive fails.
+  -joke : "Windows 9 uses IPv5"
+  -joke : "Failure is not an option -- it comes bundled with Windows."
+  -joke : "Crashing is the only thing windows does quickly."
+  -joke : "sudo apt-get remove windows"
+  -joke : "ubuntu is an ancient african word that means \"i cant configure debian\""
+  -joke : "How do you make Windows faster? --- Throw it harder!"
+  -joke : "The nice thing about Windows is - It does not just crash, it displays a dialog."
+  -joke : "Linux, DOS, Vista : \"The Good, the Bad, and the Ugly\""
+  -joke : |
+    "Q: What did Linux say to the Windows partition?"
+    "A: Go fsck yourself!!"
+  -joke : "sudo touch /var/woman"
+  -joke : "I mount my soul at /dev/null"
+  -joke : "Unix is sexy: who | grep -i blonde | date; cd ~; unzip; touch; strip; finger; mount; gasp; yes; uptime; umount; sleep"
+  -joke : "Unix is user-friendly. It's just picky about who its friends are."
+  -joke : "Why don't jokes work in base 8? Because 7 10 11"
+  -joke : "If at first you don't succeed, call it version 1.0"
+  -joke : |
+    "What's the only thing dumber than one of my coworkers?"
+    Two of my coworkers.
+  -joke : |
+    What do you call a group of 8 hobbits?
+    A hobbyte!
+  -joke : "The best thing about 404 jokes is… wait, damnit, it’s around here somewhere…"
+  -joke : "What did the router say to his doctor? Doc, it hurts when IP."
+  -joke : |-
+    Q. How did the programmer die in the shower?
+    "A. He read the shampoo bottle instructions: Lather. Rinse. Repeat."
+  -joke : "A programmer is going out shopping and his wife says \"While you are out, get eggs\" He never returned !!"
+  -joke : |-
+    "Q.How many programmers does it take to screw in a lightbulb?"
+    "A.None.That's a hardware issue."
+  -joke : |
+   "Q: What is the difference between Windows 95 and Windows 98?"
+   "A: 3 years"
+  -joke : |
+    "Q: How does Bill Gates screw in a lightbulb?"
+    "A: He doesn’t. He declares darkness the industry standard."
+  -joke : "The more I C, the less I see."
+  -joke : "To err is human… to really foul up requires the root password."
+  -joke : "If Python is executable pseudocode, then perl is executable line noise."
+  -joke : "If brute force doesn’t solve your problems, then you aren’t using enough."
+  -joke : "Life would be so much easier if we only had the source code."
+  -joke : "COBOL programmers understand why women hate periods."
+  -joke : "A Windows user spends 1/3 of his life sleeping, 1/3 working, 1/3 waiting."
+  -joke : "My software never has bugs. It just develops random features."
+  -joke : "Better to be a geek than an idiot."
+  -joke : "Windows isn’t a virus, viruses do something."
+  -joke : "Difference between a virus and windows ? Viruses rarely fail."
+  -joke : "Evolution is God’s way of issuing upgrades."
+  -joke : "The only problem with troubleshooting is that sometimes trouble shoots back."
+  -joke : "The box said ‘Required Windows 95 or better’. So, I installed LINUX."
+  -joke : "Real men don’t use backups, they post their stuff on a public ftp server and let the rest of the world make copies."
+  -joke : >-
+    "If you give someone a program, you will frustrate them for a day;"
+    "if you teach them how to program, you will frustrate them for a lifetime."
+  -joke : "It is easier to change the specification to fit the program than vice versa."
+  -joke : "The nice thing about standards is that there are so many to choose from."
+  -joke : "Programmers are tools for converting caffeine into code."
+  -joke : "The great thing about Object Oriented code is that it can make small, simple problems look like large, complex ones."
+  -joke : "Hacking is like sex. You get in, you get out, and hope that you didn’t leave something that can be traced back to you."
+  -joke : "A programmer is told to \"go to hell\", he finds the worst part of that statement is the \"go to\""
+  -joke : "rm -rf /bin/laden"
+  -joke : "If you hold a Linux shell close to your ear, can you hear the C?"
+  -joke : "I've been using vim for 5 years now, mostly because I don't know how to close it."
+  -joke : "Tom and Jerry on Linux:cat /dev/mouse"
+  -joke : "There is no place like ~"
+  -joke : "touch woman(in root directory) - cannot touch woman:Permission denied"
+
+
+
+
+
